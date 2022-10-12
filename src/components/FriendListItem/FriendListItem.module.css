@@ -1,0 +1,54 @@
+.item{
+  display: flex;
+
+  padding: 20px 120px 20px 20px ;
+  background-color: white;
+  border-radius: 10px;
+
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.item:not(:last-child){
+  margin-bottom: 20px;
+}
+
+.statusOnline{
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-right: 10px;
+
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+
+  background-color: green;
+}
+
+.statusOffline{
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-right: 10px;
+
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+
+  background-color: red;
+}
+
+.avatar{
+  width: 80px;
+  border-radius: 15px;
+  margin-right: 10px;
+
+  border: solid;
+}
+
+.name{
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+

@@ -1,0 +1,29 @@
+.transactionHistory{
+  margin-bottom: 100px;
+
+  border-collapse: separate;
+  border-spacing: 11px 11px;
+  width: 60%;
+}
+
+.thead__th{
+  padding: 35px;
+  background-color:rgb(28,181,195);
+  color: white;
+  font-weight: bold;
+}
+
+.tbody__tr:nth-child(even){
+  background-color: rgb(236,241,244);
+}
+
+.tbody__tr{
+  background-color: white;
+}
+
+.tbody__td{
+  text-align: center;
+  padding: 20px;
+  color:grey;
+  /* background-color: aliceblue; */
+}
