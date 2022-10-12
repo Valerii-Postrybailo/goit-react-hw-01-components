@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://valerii-postrybailo.github.io/wtf/",
+  "homepage": "https://valerii-postrybailo.github.io/goit-react-hw-01-components_-2.0-/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
